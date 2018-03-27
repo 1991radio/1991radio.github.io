@@ -132,6 +132,7 @@ body {
   background: linear-gradient(-65deg, #43C6AC, #F8FFAE);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin:0px; padding:0px;
 }
 
 @keyframes spin {
