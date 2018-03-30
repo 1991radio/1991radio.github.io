@@ -137,7 +137,8 @@ body {
 
 .texto{display: flex;
   justify-content: center;
-  align-items: center;position: relative;}
+  align-items: center;
+  position: relative;}
 
 @keyframes spin {
   from {
