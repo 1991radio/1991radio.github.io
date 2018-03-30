@@ -160,9 +160,9 @@ function togglePlay() {
 
 function makePlay() {
   playpauseBtn.style.display = 'block';
-  player.play();
-      playPause.attributes.d.value = "M0 0h6v24H0zM12 0h6v24h-6z";
-
+   playPause.attributes.d.value = "M18 12L0 24V0";
+  player.play();  
+  loading.style.display = 'none';
 }
 
 function directionAware() {
