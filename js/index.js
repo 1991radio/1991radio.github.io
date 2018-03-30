@@ -161,6 +161,7 @@ function togglePlay() {
 function makePlay() {
   playpauseBtn.style.display = 'block';
   loading.style.display = 'none';
+  player.play();
 }
 
 function directionAware() {
