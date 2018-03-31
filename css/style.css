@@ -128,8 +128,8 @@ body {
   justify-content: center;
   align-items: center;
   background: #F8FFAE;
-  background: -webkit-linear-gradient(-65deg, #43C6AC, #F8FFAE);
-  background: linear-gradient(-65deg, #43C6AC, #F8FFAE);
+  background: -webkit-linear-gradient(-65deg, #43C6AC, #54a1FA);
+  background: linear-gradient(-65deg, #43C6AC, #54A1FA);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin:0px; padding:0px;
