@@ -11,7 +11,7 @@
   border-radius: 4px;
   user-select: none;
   -webkit-user-select: none;
-  background-color: #fff;position: fixed;
+  background-color: #fff;
 }
 .audio.green-audio-player .play-pause-btn {
   display: none;
