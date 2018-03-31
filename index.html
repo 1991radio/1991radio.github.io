@@ -1,83 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-<meta charset="UTF-8">
-  <title>1991 RADIO</title>
-  <script>
-var ua = navigator.userAgent.toLowerCase(); 
- if (ua.indexOf('safari')!=-1){ 
-   if(ua.indexOf('chrome')  > -1){
-
-   }else{
-    window.location.href = "safari.html" 
-   }
-  }
-
-</script>
-  
-  
-  <style type="text/css">
-@font-face {
-    font-family: "Monaco";
-    src: url(monaco.ttf) format("truetype");
-}
-p.custom { 
-    font-family: "Monaco", Monaco, Verdana;font-size:10px;
-}
-</style>
- <link rel="stylesheet" href="css/style.css">
-  <script src="js/ogv.js"></script>
-
-
-</head>
-
-<body>
-
-  <div class="audio green-audio-player"> 
-
-  <div class="loading">
-    <div class="spinner"></div>
-  </div>
-  <div class="play-pause-btn">
-    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="24" viewBox="0 0 18 24">
-      <path fill="#566574" fill-rule="evenodd" d="M18 12L0 24V0" class="play-pause-icon" id="playPause"/>
-    </svg>
-  </div>
-
-  
-<div class="controls">
-    <span class="current-time" style="font-size:10px">Live</span>
-<p class="custom"> 1991 RADIO <a href="https://www.facebook.com/1991radio/" style="text-decoration:none" target="_blank">&nbsp;f&nbsp;</a><a href="https://twitter.com/1991Radio" target="_blank" style="text-decoration:none" >&nbsp;t&nbsp;</a>   </p>
-  
-  </div>
-    
-  <div class="volume">
-    <div class="volume-btn">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-        <path fill="#566574" fill-rule="evenodd" d="M14.667 0v2.747c3.853 1.146 6.666 4.72 6.666 8.946 0 4.227-2.813 7.787-6.666 8.934v2.76C20 22.173 24 17.4 24 11.693 24 5.987 20 1.213 14.667 0zM18 11.693c0-2.36-1.333-4.386-3.333-5.373v10.707c2-.947 3.333-2.987 3.333-5.334zm-18-4v8h5.333L12 22.36V1.027L5.333 7.693H0z" id="speaker"/>
-      </svg>
-    </div>
-    <div class="volume-controls hidden">
-      <div class="slider" data-direction="vertical">
-        <div class="progress">
-          <div class="pin" id="volume-pin" data-method="changeVolume"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <audio crossorigin>
-    <source src="http://giss.tv:8000/1991music.ogg" type="audio/ogg">
-    <p><a href="https://www.mozilla.org/en-US/firefox/" target="_blank">Please update your browser.</a></p>
-  </audio>
-</div>
-
-  
-<script  src="js/index.js"></script>
-
-
-
-
-</body>
-
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ogv.js QUnit tests</title>
+		<link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-1.15.0.css">
+	</head>
+	<body>
+		<div id="qunit"></div>
+		<div id="qunit-fixture"></div>
+		<script src="https://code.jquery.com/qunit/qunit-1.15.0.js"></script>
+		<script src="lib/ogv-support.js"></script>
+		<script src="lib/ogv.js"></script>
+		<script src="tests.js"></script>
+	</body>
 </html>
