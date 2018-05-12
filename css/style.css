@@ -127,10 +127,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #F8FFAE;
-  background: -webkit-linear-gradient(-65deg, #54a1FA, #F8FFAE);
-  background: linear-gradient(-65deg, #54a1FA, #F8FFAE);
-  -webkit-font-smoothing: antialiased;
+   background:-webkit-gradient(linear,left top,left bottom,from(#83d1eb),to(#be68a9));
+ background:-webkit-linear-gradient(top,#83d1eb,#be68a9);
+ background:-o-linear-gradient(top,#83d1eb,#be68a9);
+ background:linear-gradient(180deg,#83d1eb,#be68a9);
+  background: #be68a9;
+ -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin:0px; padding:0px;
 }
